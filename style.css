@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1140px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    }
+.main{
+    
+    
+    
+}
+
+.popular-collection{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+    background-color:grey;
+    
+   
+}
+.tripod{
+    border: 1px solid rgb(238, 238, 228); 
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
